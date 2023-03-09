@@ -29,7 +29,7 @@ body::-webkit-scrollbar-thumb {
     transition: 0.2s;
     z-index: 2;
     display: flex;
-    background-color: rgb(33, 33, 33);
+    background-color:maroon;
 }
 
 .header.sticky {
@@ -1020,7 +1020,7 @@ section div {
 .footer {
     width: 100%;
     height: auto;
-    background: #fff;
+    background: pink;
 }
 
 .trust-section {
