@@ -1235,13 +1235,13 @@ p>a:hover {
 .slider {
     /* position: absolute; */
     width: 100%;
-    /* height: 450px; */
+    height: 450px; 
     overflow: hidden;
 }
 
 .slides {
     width: 500%;
-    /* height: 450px; */
+    height: 450px; 
     display: flex;
 }
 
@@ -1261,7 +1261,7 @@ p>a:hover {
 
 .slide img {
     width: 100%;
-    /* height: 450px; */
+     height: 450px;
 }
 
 #radio1:checked~.first {
