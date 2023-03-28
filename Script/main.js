@@ -16,6 +16,8 @@ if (x == null) {} else {
     document.querySelector(".numb").innerHTML = x.length;
 }
 
+
+
 // Navbar start
 
 window.addEventListener("scroll", function() {
