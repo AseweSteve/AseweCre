@@ -35,7 +35,7 @@ Pop Up
     z-index: 9999;
     transition: 0.3s;
     transform: scale(1);
-    m
+    
 
   }
   
@@ -857,7 +857,7 @@ a:active {
 }
 
 
-/* Sinup and signIn */
+/* Signup and signIn */
 
 .model-box {
     width: 100%;

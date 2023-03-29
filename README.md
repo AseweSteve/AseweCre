@@ -38,7 +38,7 @@ Figma Design & Prototype link....(https://www.figma.com/file/SYKATs2Bhy916PLLW0o
 
 
 # Features
-You will be able to create your account using login and signup option, used API calls for validating user credentials.
+You will be able to create your account using login and signup option, used firebase authentication to validate user credentials.
 
 Used Reusable Components in landing page such that it can be reused in any other pages easily without repeatation.
 
