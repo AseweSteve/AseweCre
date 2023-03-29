@@ -40,7 +40,7 @@ Figma Design & Prototype link....(https://www.figma.com/file/SYKATs2Bhy916PLLW0o
 # Features
 You will be able to create your account using login and signup option, used firebase authentication to validate user credentials.
 
-Used Reusable Components in landing page such that it can be reused in any other pages easily without repeatation.
+Used Reusable Components in landing page such that it can be reused in any other pages easily without repetition.
 
 You can choose a product which you want to buy and add to cart section.
 
@@ -48,6 +48,6 @@ One can Sort and Filter the product according to the gender and brand of differe
 
 User can also select and remove items from cart section and make payment through card.
 
-All the data is stored in the localStorage of the User.
+All the data is stored in the localStorage of the User.e.t.c.
 
-# Instructions to Run the Code
+- The website is an expanded idea and design practice borrowed from Tata Cliq website.//
