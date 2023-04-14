@@ -3,7 +3,10 @@ E-commerce Website for Buying Different Products.
 
 <p>*Find attached is the project  <a href="https://www.canva.com/design/DAFehz0onAM/oY8gruAz7-5tYOSgN1p95Q/view?utm_content=DAFehz0onAM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Documentation</a>  file.</p>
 
+Live online access link ==>> https://asewecre-e-shopping.web.app/
+
 Figma Design & Prototype link....(https://www.figma.com/file/SYKATs2Bhy916PLLW0ok0P/ASEWECRE-E-COMMERCE-WEBSITE?node-id=0%3A1&t=rTITZPAIlMQDInIe-1)
+
 # PREVIEW    
 
 <style> color: green; 
