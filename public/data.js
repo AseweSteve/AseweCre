@@ -1,3 +1,29 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // require('dotenv').config();
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+  import { getDatabase } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
+  import {
+    getAuth,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword,
+  } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+  // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+    const firebaseConfig = {
+      apiKey: "AIzaSyB3lObD9E_ahZFYq1doYLg5gSP7mrdsFbw",
+      authDomain: "asewetaskmproject.firebaseapp.com",
+      projectId: "asewetaskmproject",
+      storageBucket: "asewetaskmproject.appspot.com",
+      messagingSenderId: "538569922554",
+      appId: "1:538569922554:web:96cd3dbad4633d99a23643",
+      measurementId: "G-KJ1XJJ1FR8"
+    };
+  
+  const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+
 let data = [
     {
       department: "footwear",
