@@ -1,3 +1,35 @@
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+  import { getDatabase } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
+
+  import {
+    getAuth,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword,
+  } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-auth.js";
+  // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD89QkOk1WQzf26yZAsoGMKXyZimJSqXLs",
+    authDomain: "asewecre-e-commerce-shop.firebaseapp.com",
+    databaseURL: "https://asewecre-e-commerce-shop-default-rtdb.firebaseio.com",
+    projectId: "asewecre-e-commerce-shop",
+    storageBucket: "asewecre-e-commerce-shop.appspot.com",
+    messagingSenderId: "377477763514",
+    appId: "1:377477763514:web:f6744a8b855f83a21a0d83",
+    measurementId: "G-CM1R1CC4TN"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  const database = getDatabase(app);
+  const auth = getAuth();
 var inputKey = "";
 
 function myFunction(e) {
