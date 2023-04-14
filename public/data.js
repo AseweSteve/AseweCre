@@ -1,28 +1,25 @@
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // require('dotenv').config();
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-  import { getDatabase } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
-  import {
-    getAuth,
-    createUserWithEmailAndPassword,
-    signInWithEmailAndPassword,
-  } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
-  // import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
-    const firebaseConfig = {
-      apiKey: "AIzaSyB3lObD9E_ahZFYq1doYLg5gSP7mrdsFbw",
-      authDomain: "asewetaskmproject.firebaseapp.com",
-      projectId: "asewetaskmproject",
-      storageBucket: "asewetaskmproject.appspot.com",
-      messagingSenderId: "538569922554",
-      appId: "1:538569922554:web:96cd3dbad4633d99a23643",
-      measurementId: "G-KJ1XJJ1FR8"
-    };
-  
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyD89QkOk1WQzf26yZAsoGMKXyZimJSqXLs",
+    authDomain: "asewecre-e-commerce-shop.firebaseapp.com",
+    databaseURL: "https://asewecre-e-commerce-shop-default-rtdb.firebaseio.com",
+    projectId: "asewecre-e-commerce-shop",
+    storageBucket: "asewecre-e-commerce-shop.appspot.com",
+    messagingSenderId: "377477763514",
+    appId: "1:377477763514:web:f6744a8b855f83a21a0d83",
+    measurementId: "G-CM1R1CC4TN"
+  };
+
+  // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const database = getDatabase(app);
-  const auth = getAuth();
+  const analytics = getAnalytics(app);
 
 let data = [
     {
